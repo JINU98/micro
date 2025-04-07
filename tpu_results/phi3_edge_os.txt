@@ -1,0 +1,896 @@
+====================================================
+******************* SCALE SIM **********************
+====================================================
+Array Size: 	32x32
+SRAM IFMAP (kB): 	2048
+SRAM Filter (kB): 	4096
+SRAM OFMAP (kB): 	2048
+Dataflow: 	Output Stationary
+CSV file path: 	/work/jmalekar/scale-sim-v2/topologies/phi3_models/1-phi3-38b_3072_32_128.csv
+Working in ESTIMATE BANDWIDTH mode.
+====================================================
+
+Running Layer 0 : Q
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 1 : K
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 2 : V
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 3 : Attention_score
+ifmap_sram_reads  384
+ofmap_sram_write 384
+Compute cycles: 631
+Stall cycles: 0
+Memory Access: 13056
+Overall utilization: 1.90%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 0.046 words/cycle
+Average Filter DRAM BW: 2.929 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 4 : Attention_output
+ifmap_sram_reads  384
+ofmap_sram_write 288
+Compute cycles: 569
+Stall cycles: 0
+Memory Access: 12960
+Overall utilization: 2.11%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 0.061 words/cycle
+Average Filter DRAM BW: 2.929 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 5 : Add_norm
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 6 : FFN_in
+ifmap_sram_reads  786432
+ofmap_sram_write 9216
+Compute cycles: 792383
+Stall cycles: 0
+Memory Access: 25961472
+Overall utilization: 3.10%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 3.905 words/cycle
+Average Filter DRAM BW: 25.114 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 7 : FFN_out
+ifmap_sram_reads  786432
+ofmap_sram_write 24576
+Compute cycles: 802303
+Stall cycles: 0
+Memory Access: 25976832
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 24.868 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+
+----------------------------------------------------------------------------------------
+
+
+Total Attention Cycles: 38400
+Total Compute Cycles: 2836538
+Attention %: 0.013537629321376974
+Total Attention Memory Access: 832512
+Total Memory Access: 91736064
+Attention Memory Access %: 0.00907507869533186
+Model Name and Parameters 1-phi3-38b
+Embeddding Dimension: 3072
+Number of Heads: 32
+Context Length 128
+Configuration: 1-phi3-38b_3072_32_128
+
+
+************ SCALE SIM Run Complete ****************
+
+
+====================================================
+******************* SCALE SIM **********************
+====================================================
+Array Size: 	32x32
+SRAM IFMAP (kB): 	2048
+SRAM Filter (kB): 	4096
+SRAM OFMAP (kB): 	2048
+Dataflow: 	Output Stationary
+CSV file path: 	/work/jmalekar/scale-sim-v2/topologies/phi3_models/1-phi3-38b_3072_32_256.csv
+Working in ESTIMATE BANDWIDTH mode.
+====================================================
+
+Running Layer 0 : Q
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 1 : K
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 2 : V
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 3 : Attention_score
+ifmap_sram_reads  768
+ofmap_sram_write 768
+Compute cycles: 1263
+Stall cycles: 0
+Memory Access: 26112
+Overall utilization: 1.90%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 0.046 words/cycle
+Average Filter DRAM BW: 5.858 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 4 : Attention_output
+ifmap_sram_reads  768
+ofmap_sram_write 288
+Compute cycles: 953
+Stall cycles: 0
+Memory Access: 25632
+Overall utilization: 2.52%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 0.122 words/cycle
+Average Filter DRAM BW: 5.858 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 5 : Add_norm
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 6 : FFN_in
+ifmap_sram_reads  786432
+ofmap_sram_write 9216
+Compute cycles: 792383
+Stall cycles: 0
+Memory Access: 25961472
+Overall utilization: 3.10%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 3.905 words/cycle
+Average Filter DRAM BW: 25.114 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 7 : FFN_out
+ifmap_sram_reads  786432
+ofmap_sram_write 24576
+Compute cycles: 802303
+Stall cycles: 0
+Memory Access: 25976832
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 24.868 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+
+----------------------------------------------------------------------------------------
+
+
+Total Attention Cycles: 70912
+Total Compute Cycles: 2869050
+Attention %: 0.0247161952562695
+Total Attention Memory Access: 1655808
+Total Memory Access: 92559360
+Attention Memory Access %: 0.017889147029538664
+Model Name and Parameters 1-phi3-38b
+Embeddding Dimension: 3072
+Number of Heads: 32
+Context Length 256
+Configuration: 1-phi3-38b_3072_32_256
+
+
+************ SCALE SIM Run Complete ****************
+
+
+====================================================
+******************* SCALE SIM **********************
+====================================================
+Array Size: 	32x32
+SRAM IFMAP (kB): 	2048
+SRAM Filter (kB): 	4096
+SRAM OFMAP (kB): 	2048
+Dataflow: 	Output Stationary
+CSV file path: 	/work/jmalekar/scale-sim-v2/topologies/phi3_models/1-phi3-38b_3072_32_512.csv
+Working in ESTIMATE BANDWIDTH mode.
+====================================================
+
+Running Layer 0 : Q
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 1 : K
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 2 : V
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 3 : Attention_score
+ifmap_sram_reads  1536
+ofmap_sram_write 1536
+Compute cycles: 2527
+Stall cycles: 0
+Memory Access: 52224
+Overall utilization: 1.90%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 0.046 words/cycle
+Average Filter DRAM BW: 5.859 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 4 : Attention_output
+ifmap_sram_reads  1536
+ofmap_sram_write 288
+Compute cycles: 1721
+Stall cycles: 0
+Memory Access: 50976
+Overall utilization: 2.79%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 0.244 words/cycle
+Average Filter DRAM BW: 5.859 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 5 : Add_norm
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 6 : FFN_in
+ifmap_sram_reads  786432
+ofmap_sram_write 9216
+Compute cycles: 792383
+Stall cycles: 0
+Memory Access: 25961472
+Overall utilization: 3.10%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 3.905 words/cycle
+Average Filter DRAM BW: 25.114 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 7 : FFN_out
+ifmap_sram_reads  786432
+ofmap_sram_write 24576
+Compute cycles: 802303
+Stall cycles: 0
+Memory Access: 25976832
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 24.868 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+
+----------------------------------------------------------------------------------------
+
+
+Total Attention Cycles: 135936
+Total Compute Cycles: 2934074
+Attention %: 0.046330119826561975
+Total Attention Memory Access: 3302400
+Total Memory Access: 94205952
+Attention Memory Access %: 0.03505510989369334
+Model Name and Parameters 1-phi3-38b
+Embeddding Dimension: 3072
+Number of Heads: 32
+Context Length 512
+Configuration: 1-phi3-38b_3072_32_512
+
+
+************ SCALE SIM Run Complete ****************
+
+
+====================================================
+******************* SCALE SIM **********************
+====================================================
+Array Size: 	32x32
+SRAM IFMAP (kB): 	2048
+SRAM Filter (kB): 	4096
+SRAM OFMAP (kB): 	2048
+Dataflow: 	Output Stationary
+CSV file path: 	/work/jmalekar/scale-sim-v2/topologies/phi3_models/1-phi3-38b_3072_32_1024.csv
+Working in ESTIMATE BANDWIDTH mode.
+====================================================
+
+Running Layer 0 : Q
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 1 : K
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 2 : V
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 3 : Attention_score
+ifmap_sram_reads  3072
+ofmap_sram_write 3072
+Compute cycles: 5055
+Stall cycles: 0
+Memory Access: 104448
+Overall utilization: 1.90%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 0.046 words/cycle
+Average Filter DRAM BW: 7.812 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 4 : Attention_output
+ifmap_sram_reads  3072
+ofmap_sram_write 288
+Compute cycles: 3257
+Stall cycles: 0
+Memory Access: 101664
+Overall utilization: 2.95%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 0.488 words/cycle
+Average Filter DRAM BW: 7.812 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 5 : Add_norm
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 6 : FFN_in
+ifmap_sram_reads  786432
+ofmap_sram_write 9216
+Compute cycles: 792383
+Stall cycles: 0
+Memory Access: 25961472
+Overall utilization: 3.10%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 3.905 words/cycle
+Average Filter DRAM BW: 25.114 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 7 : FFN_out
+ifmap_sram_reads  786432
+ofmap_sram_write 24576
+Compute cycles: 802303
+Stall cycles: 0
+Memory Access: 25976832
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 24.868 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+
+----------------------------------------------------------------------------------------
+
+
+Total Attention Cycles: 265984
+Total Compute Cycles: 3064122
+Attention %: 0.08680594310539855
+Total Attention Memory Access: 6595584
+Total Memory Access: 97499136
+Attention Memory Access %: 0.06764761484655618
+Model Name and Parameters 1-phi3-38b
+Embeddding Dimension: 3072
+Number of Heads: 32
+Context Length 1024
+Configuration: 1-phi3-38b_3072_32_1024
+
+
+************ SCALE SIM Run Complete ****************
+
+
+====================================================
+******************* SCALE SIM **********************
+====================================================
+Array Size: 	32x32
+SRAM IFMAP (kB): 	2048
+SRAM Filter (kB): 	4096
+SRAM OFMAP (kB): 	2048
+Dataflow: 	Output Stationary
+CSV file path: 	/work/jmalekar/scale-sim-v2/topologies/phi3_models/1-phi3-38b_3072_32_2048.csv
+Working in ESTIMATE BANDWIDTH mode.
+====================================================
+
+Running Layer 0 : Q
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 1 : K
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 2 : V
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 3 : Attention_score
+ifmap_sram_reads  6144
+ofmap_sram_write 6144
+Compute cycles: 10111
+Stall cycles: 0
+Memory Access: 208896
+Overall utilization: 1.90%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 0.046 words/cycle
+Average Filter DRAM BW: 9.375 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 4 : Attention_output
+ifmap_sram_reads  6144
+ofmap_sram_write 288
+Compute cycles: 6329
+Stall cycles: 0
+Memory Access: 203040
+Overall utilization: 3.03%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 0.976 words/cycle
+Average Filter DRAM BW: 9.375 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 5 : Add_norm
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 6 : FFN_in
+ifmap_sram_reads  786432
+ofmap_sram_write 9216
+Compute cycles: 792383
+Stall cycles: 0
+Memory Access: 25961472
+Overall utilization: 3.10%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 3.905 words/cycle
+Average Filter DRAM BW: 25.114 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 7 : FFN_out
+ifmap_sram_reads  786432
+ofmap_sram_write 24576
+Compute cycles: 802303
+Stall cycles: 0
+Memory Access: 25976832
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 24.868 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+
+----------------------------------------------------------------------------------------
+
+
+Total Attention Cycles: 526080
+Total Compute Cycles: 3324218
+Attention %: 0.1582567689603991
+Total Attention Memory Access: 13181952
+Total Memory Access: 104085504
+Attention Memory Access %: 0.1266454164453102
+Model Name and Parameters 1-phi3-38b
+Embeddding Dimension: 3072
+Number of Heads: 32
+Context Length 2048
+Configuration: 1-phi3-38b_3072_32_2048
+
+
+************ SCALE SIM Run Complete ****************
+
+
+====================================================
+******************* SCALE SIM **********************
+====================================================
+Array Size: 	32x32
+SRAM IFMAP (kB): 	2048
+SRAM Filter (kB): 	4096
+SRAM OFMAP (kB): 	2048
+Dataflow: 	Output Stationary
+CSV file path: 	/work/jmalekar/scale-sim-v2/topologies/phi3_models/1-phi3-38b_3072_32_4096.csv
+Working in ESTIMATE BANDWIDTH mode.
+====================================================
+
+Running Layer 0 : Q
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 1 : K
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 2 : V
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 3 : Attention_score
+ifmap_sram_reads  12288
+ofmap_sram_write 12288
+Compute cycles: 20223
+Stall cycles: 0
+Memory Access: 417792
+Overall utilization: 1.90%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 0.046 words/cycle
+Average Filter DRAM BW: 9.375 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 4 : Attention_output
+ifmap_sram_reads  12288
+ofmap_sram_write 288
+Compute cycles: 12473
+Stall cycles: 0
+Memory Access: 405792
+Overall utilization: 3.08%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.952 words/cycle
+Average Filter DRAM BW: 9.375 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 5 : Add_norm
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 6 : FFN_in
+ifmap_sram_reads  786432
+ofmap_sram_write 9216
+Compute cycles: 792383
+Stall cycles: 0
+Memory Access: 25961472
+Overall utilization: 3.10%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 3.905 words/cycle
+Average Filter DRAM BW: 25.114 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 7 : FFN_out
+ifmap_sram_reads  786432
+ofmap_sram_write 24576
+Compute cycles: 802303
+Stall cycles: 0
+Memory Access: 25976832
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 24.868 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+
+----------------------------------------------------------------------------------------
+
+
+Total Attention Cycles: 1046272
+Total Compute Cycles: 3844410
+Attention %: 0.2721541146755939
+Total Attention Memory Access: 26354688
+Total Memory Access: 117258240
+Attention Memory Access %: 0.22475766308619335
+Model Name and Parameters 1-phi3-38b
+Embeddding Dimension: 3072
+Number of Heads: 32
+Context Length 4096
+Configuration: 1-phi3-38b_3072_32_4096
+
+
+************ SCALE SIM Run Complete ****************
+
+
+====================================================
+******************* SCALE SIM **********************
+====================================================
+Array Size: 	32x32
+SRAM IFMAP (kB): 	2048
+SRAM Filter (kB): 	4096
+SRAM OFMAP (kB): 	2048
+Dataflow: 	Output Stationary
+CSV file path: 	/work/jmalekar/scale-sim-v2/topologies/phi3_models/1-phi3-38b_3072_32_8192.csv
+Working in ESTIMATE BANDWIDTH mode.
+====================================================
+
+Running Layer 0 : Q
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 1 : K
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 2 : V
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 3 : Attention_score
+ifmap_sram_reads  24576
+ofmap_sram_write 24576
+Compute cycles: 40447
+Stall cycles: 0
+Memory Access: 835584
+Overall utilization: 1.90%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 0.046 words/cycle
+Average Filter DRAM BW: 9.868 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 4 : Attention_output
+ifmap_sram_reads  24576
+ofmap_sram_write 288
+Compute cycles: 24761
+Stall cycles: 0
+Memory Access: 811296
+Overall utilization: 3.10%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 3.905 words/cycle
+Average Filter DRAM BW: 9.868 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 5 : Add_norm
+ifmap_sram_reads  294912
+ofmap_sram_write 9216
+Compute cycles: 300863
+Stall cycles: 0
+Memory Access: 9741312
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 19.778 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 6 : FFN_in
+ifmap_sram_reads  786432
+ofmap_sram_write 9216
+Compute cycles: 792383
+Stall cycles: 0
+Memory Access: 25961472
+Overall utilization: 3.10%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 3.905 words/cycle
+Average Filter DRAM BW: 25.114 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+Running Layer 7 : FFN_out
+ifmap_sram_reads  786432
+ofmap_sram_write 24576
+Compute cycles: 802303
+Stall cycles: 0
+Memory Access: 25976832
+Overall utilization: 3.06%
+Mapping efficiency: 3.12%
+Average IFMAP DRAM BW: 1.464 words/cycle
+Average Filter DRAM BW: 24.868 words/cycle
+Average OFMAP DRAM BW: 32.000 words/cycle
+
+
+----------------------------------------------------------------------------------------
+
+
+Total Attention Cycles: 2086656
+Total Compute Cycles: 4884794
+Attention %: 0.42717379688887597
+Total Attention Memory Access: 52700160
+Total Memory Access: 143603712
+Attention Memory Access %: 0.3669832712959398
+Model Name and Parameters 1-phi3-38b
+Embeddding Dimension: 3072
+Number of Heads: 32
+Context Length 8192
+Configuration: 1-phi3-38b_3072_32_8192
+
+
+************ SCALE SIM Run Complete ****************
+
+
